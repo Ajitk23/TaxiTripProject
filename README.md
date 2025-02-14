@@ -8,21 +8,20 @@ In this project, I developed an end-to-end data engineering pipeline on Azure Da
 
 Pipeline Overview
 
-Raw Data Ingestion (Bronze Layer)
+**Raw Data Ingestion (Bronze Layer)**
 
 Utilized Azure Data Factory to dynamically load raw data (CSV/Parquet) into Azure Data Lake Storage Gen2 (ADLS Gen2).
 
 Configured a dynamic pipeline to handle varying data conditions, ensuring efficient ingestion based on file size and activity.
 
-Data Transformation (Silver Layer)
-
+**Data Transformation (Silver Layer)**
 In Azure Databricks, data was processed using PySpark to clean, transform, and enrich raw datasets.
 
 Key transformations included adding derived columns such as trip_date and trip_year, and applying data quality checks.
 
 Transformed data was then written back to ADLS Gen2 in Parquet format, ready for further aggregation.
 
-Data Aggregation & Final Processing (Gold Layer)
+**Data Aggregation & Final Processing (Gold Layer)**
 
 The Gold Layer stored aggregated and optimized data in Delta Lake format, ensuring transactional consistency and enabling time travel for historical analysis.
 
@@ -30,7 +29,7 @@ Created Delta tables for key datasets (e.g., trip_zone, trip_type, tripdata2023)
 
 Enabled schema evolution to seamlessly handle changes in the incoming data structure.
 
-Technologies Used
+**Technologies Used**
 
 ✅ Azure Data Lake Storage Gen2 (ADLS Gen2)
 
@@ -44,7 +43,7 @@ Technologies Used
 
 ✅ Microsoft Entra ID
 
-Project Highlights
+**Project Highlights**
 
 🚀 Scalability: Built a flexible pipeline that adapts to varying data sizes and complexities, ensuring smooth data processing.
 
