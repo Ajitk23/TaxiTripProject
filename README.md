@@ -28,9 +28,9 @@ In this project, I developed an end-to-end data engineering pipeline on Azure Da
 - Azure Data Lake Storage Gen2 (ADLS Gen2)  
 - Azure Databricks  
 - Delta Lake  
-- Apache Spark  
+- pySpark  
 - Azure Data Factory (Dynamic Pipeline)  
-- SQL
+- Microsot EntraID
 
 ---
 
