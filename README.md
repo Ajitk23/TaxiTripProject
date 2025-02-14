@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/de19a803-b0c2-4bba-9436-b04b0466317f)
+
 # TaxiTripProject
 Dataset link - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 ### Azure Data Engineering Pipeline with Medallion Architecture and Delta Lake
