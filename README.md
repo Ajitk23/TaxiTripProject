@@ -2,7 +2,8 @@
 
 # TaxiTripProject
 Dataset link - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-Azure Data Engineering Pipeline with Medallion Architecture and Delta Lake
+
+**Azure Data Engineering Pipeline with Medallion Architecture and Delta Lake**
 
 In this project, I developed an end-to-end data engineering pipeline on Azure Databricks to process and transform NYC Taxi trip data. Leveraging the Medallion Architecture (Bronze, Silver, Gold layers) and Delta Lake, the pipeline efficiently ingests, cleans, and aggregates large datasets, ensuring high-quality, structured data ready for advanced analytics.
 
